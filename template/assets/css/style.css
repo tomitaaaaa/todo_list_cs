@@ -1,0 +1,164 @@
+
+
+.container{
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  border: 1px solid #333;
+}
+
+.header{
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  border-bottom: 1px solid #333;
+}
+
+.footer{
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  border-top: 1px solid #333;
+}
+
+
+/* --- */
+
+.stage{
+  width: 100%;
+  padding-bottom: 10%;
+  text-align: center;
+}
+
+.stage__create_todo{
+  height: 40px;
+}
+
+.stage__create__btn--add{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+
+
+/* --- */
+
+.stage__nav{
+  display: table;
+}
+
+
+.stage__nav--unresolved{
+  display: table-cell;
+  line-height: 40px;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+
+
+.stage__nav--resolved{
+  display: table-cell;
+  line-height: 40px;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+
+
+.stage__nav--archive{
+  display: table-cell;
+  line-height: 40px;
+  background: #ccc;
+  border: 1px solid #ccc;
+}
+
+
+
+
+/* --- */
+
+
+.todo__item{
+  width: 100%;
+  margin: 0 auto;
+  text-align: left;
+  border-top: 1px dotted #333;
+  background: #ccc;
+}
+
+.todo__item:last-child{
+  border-bottom: 1px dotted #333;
+}
+.todo__item__inr{
+  background: #fff;
+  padding: 0 3%;
+  box-sizing: border-box;
+}
+
+.todo__item__ttl{
+  width: 70%;
+  display: inline-block;
+}
+.todo__item__limit{
+  width: 20%;
+  display: inline-block;
+}
+
+
+/* --- */
+
+
+.input__block{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.input__block__label{
+  font-size: 24px;
+  text-align: left;
+}
+
+.input__block__form{
+  width: 100%;
+  min-height: 30px;
+  border: 1px solid #666;
+  background: #fff;
+}
+
+
+
+/* --- */
+
+.detail{
+  width: 80%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.detail___ttl{
+  font-size: 24px;
+}
+
+
+.detail__action{
+}
+
+.detail__action--toggle{
+  width: 100%;
+  height: 40px;
+  margin-bottom: 10px;
+  line-height: 40px;
+  background: #ccc;
+  border: 1px solid #333;
+  outline: none;
+}
+.detail__action--archive{
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  background: #ccc;
+  border: 1px solid #333;
+  outline: none;
+}

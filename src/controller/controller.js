@@ -68,7 +68,7 @@ module.exports = (function(){
       _this.inputView.showStage();
       _this.inputView.showView();
     },
-    showDetailView: function(){
+    showDetailView: function(aIndex){
       var _this = this,
           data = _this.lists.data[aIndex];
       // detail view

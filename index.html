@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <title>Todo</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<div class="container">
+  <header id="header" class="header">
+  <h1>TODO - LIST</h1>
+  </header>
+
+  <div id="stage" class="stage" role="main">
+
+    <div id="js-stage" class="stage__inr">
+
+      <div id="js-stage_input" class="stage__canvas">
+
+        <div class="input__wrap">
+
+          <div class="input__block">
+            <label>
+              <h1 class="input__block__label">題名</h1>
+              <input type="text" name="" value="" placeholder="タイトル" id="js-ttl" class="input__block__form">
+            </label>
+          </div>
+
+          <div class="input__block">
+            <label>
+              <h1 class="input__block__label">期限</h1>
+              <input type="date" name="" value="" placeholder="期限" id="js-limit" class="input__block__form">
+            </label>
+          </div>
+
+          <div class="input__block">
+            <label>
+              <h1 class="input__block__label">内容</h1>
+              <textarea name="" class="input__block__form" id="js-text" placeholder="内容"></textarea>
+            </label>
+          </div>
+          <input type="hidden" name="js-id" id="js-id" value="">
+          <input type="hidden" name="js-status" id="js-status" value="">
+          <input type="hidden" name="js-create_date" id="js-create_date" value="">
+        </div>
+
+        <div class="input__action">
+          <button id="js-btn_add" class="input__action--add">保存</button>
+          <button id="js-btn_cancel" class="input__action--cancel">キャンセル</button>
+        </div>
+
+      </div>
+
+      <div id="js-stage-inr" class="stage__canvas">
+      </div>
+
+    </div>
+
+  </div>
+
+  <footer id="footer" class="footer">
+  footer
+  </footer>
+
+</div>
+
+<script  src="assets/js/underscore-min.js" type="text/javascript"></script>
+<script type="text/javascript" src="assets/js/bundle.js"></script>
+</body>
+</html>

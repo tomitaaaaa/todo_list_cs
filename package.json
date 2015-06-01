@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "browser-sync": "^2.7.2",
+    "browserify": "^10.2.1",
+    "watchify": "^3.2.1"
+  },
+  "scripts": {
+    "build": "browserify src/app.js > assets/js/bundle.js",
+    "js": "watchify src/app.js -d -o assets/js/bundle.js -v",
+    "serve": "browser-sync start --server --files 'scripts/**/*'",
+    "start": "npm run js & npm run serve"
+  }
+}
